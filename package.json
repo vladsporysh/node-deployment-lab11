@@ -1,0 +1,20 @@
+{
+  "name": "deployment-api-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js",
+    "dev": "node --env-file=.env src/server.js"
+  },
+  "dependencies": {
+    "express": "5.3.0"
+  },
+  "lab": {
+    "P1": "Замініть наявний блок scripts повним блоком із test, start і dev за кроком 2. Перевірте npm pkg get scripts."
+  }
+}
